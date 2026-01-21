@@ -1,0 +1,24 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main {%- if jekyll.environment == "production" -%} .bundle {%- endif -%}';
+
+#sidebar .site-subtitle,
+#sidebar .site-subtitle * {
+  font-style: normal !important;
+}
+
+/* Hide right sidebar panels ("Recent Updates") */
+#main-wrapper aside,
+#main-wrapper .panel-wrapper,
+#main-wrapper .col-lg-3 {
+  display: none !important;
+}
+
+#main-wrapper .col-lg-9 {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
