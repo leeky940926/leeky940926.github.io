@@ -1,9 +1,25 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+title: 이력
+icon: fas fa-user
+order: 2
 
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+
+## 인플루디오 (2024.09 ~ )
+> K-POP 포토카드 국내/글로벌 거래 플랫폼 포카마켓 서비스 운영
+
+* 글로벌 P2P(1:1) 거래 기능 Zero To One 런칭 (POC -> MVP -> 정식 오픈, 무중단 전환)
+* 결제 오케스트레이션 및 웹훅 신뢰성 구축
+* 원장 기반 정산/대사 파이프라인 설계/구현
+* REST API를 이용한 포카마켓 글로벌 서비스 개발
+
+## 아테나스랩 (2022.01 ~ 2024.09)
+> 초/중/고 대상 커뮤니티 및 공공데이터 제공하는 오늘학교 서비스 운영
+
+* 2500만 대용량 데이터 파이프라인 구축
+* 대규모 트래픽 증가 대응
+* Cache-Aside Pattern을 이용한 RDS CPU 80% 감소
+* REST API를 이용한 오늘학교앱 기능 개발
+

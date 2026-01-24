@@ -19,7 +19,7 @@ timezone: Asia/Seoul
 
 title: 생존형 개발자 # the main title
 
-tagline: 안녕하세요. 잘 부탁 드립니다. # it will display as the subtitle
+tagline: Backend Developer @infludeo # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -100,7 +100,8 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 cdn:
 
-# the avatar on sidebar, support local or CORS resources 프로필 이미지 경로
+# the avatar on sidebar, support local or CORS resources
+# /assets/img/avatar.png
 avatar:
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
